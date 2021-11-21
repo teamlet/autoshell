@@ -4,7 +4,6 @@
 #
 # author: teamlet
 #
-
 yum install -y yum-utils
 
 yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
