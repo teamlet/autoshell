@@ -5,11 +5,9 @@
 # author: teamlet
 #
 
-yum -y wget
+yum install -y yum-utils
 
-cd /etc/yum.repos.d/
-
-wget https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 
 yum install -y docker-ce
 
